@@ -45,3 +45,82 @@ body {
   background: #777777;
   color: #fff;
 }
+
+/*=============================================
+=            Carousel section            =
+=============================================*/
+
+.carousel-section {
+  padding-top: 4.8rem;
+  background: #f2f2f2;
+}
+
+.carousel-section-container {
+  margin: 0 1.8rem;
+  max-width: 1200px;
+}
+
+.carousel-section-container > h2 {
+  margin-top: 0;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #545454;
+}
+
+.carousel-section-container > p {
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0 auto;
+  color: #949494;
+  max-width: 900px;
+}
+
+/*=====  End of Carousel section  ======*/
+
+
+/*=============================================
+=            Media queries            =
+=============================================*/
+
+/* Tablet */
+@media screen and (min-width: 736px) {
+  .carousel-section {
+    padding-top: 8rem;
+  }
+
+  .carousel-section-container {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .carousel-section-container > h2 {
+    font-size: 3.76rem;
+  }
+
+  .carousel-section-container > p {
+    font-size: 2rem;
+  }
+}
+
+/* Tablet landscape */
+@media screen and (min-width: 960px) {
+  .carousel-section-container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+  .carousel-section-container > p {
+    max-width: 700px;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1280px) {
+  
+}
+
+/*=====  End of Media queries  ======*/
+
